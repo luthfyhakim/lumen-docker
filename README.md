@@ -1,11 +1,25 @@
 # Dockering With Lumen PHP
+> by luthfyhakim - Hope it helps
+<br>
 
-run app :
+## Installation
+
+- Before run app change directory to root folder :
+```
+cd lumen-docker
+```
+
+- And make folder mysql for backup :
+```
+mkdir mysql
+```
+
+- Run app :
 ```
 make compose-up
 ```
 
-stopping app :
+- Stopping app :
 ```
 make compose-down
 ```
